@@ -1,0 +1,18 @@
+{
+  "title": "Projets",
+  "path": "/projects",
+  "blocks": [
+    {
+      "_template": "TitleBlock",
+      "title": "",
+      "underline": true,
+      "content": ""
+    },
+    {
+      "content": "Voici la liste de mes projets:",
+      "_template": "ContentBlock",
+      "center": false
+    }
+  ],
+  "displayTitle": true
+}

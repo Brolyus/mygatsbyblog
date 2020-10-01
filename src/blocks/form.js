@@ -123,7 +123,7 @@ export const FormBlock = {
   component: "group",
   defaultItem: {
     name: "Form",
-    recipient: "",
+    recipient: "f/mqkgayjg",
     fields: [],
   },
   fields: [

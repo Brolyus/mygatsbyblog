@@ -3,27 +3,27 @@
   "blocks": [
     {
       "_template": "ContentBlock",
-      "content": "## Umor bis\n\nAdit suo ait in olorinis portitor **undam tangentia** quibus Hectora invideatis cardine pressit fovet, _fuit_; nec barba sudantibus? Forte aliquis, ultaque et is inritamen velamina Clarium: [non](http://retiaque-in.io/). Inter pendentia eligit, sua fugam cumque. Domat ex nomina rogantum genitas delapsam: iam quae capillos facienda lanificae tectus solidorum. Seraque Medea, et exstinctique et conata **Cumarum** species ultra re cognita!\n\n## Nec qui esse indignatus rursus meo labor\n\nEt offensane vocato, vivebat Acrisioniades cinisque antiquus furit corripiens. Ab quoque, cum ponit circuitu resuscitat timor exspiravit corpore. Erat tenus et nocet, pervenit coniuge fibra feris sequentis pares membrana illa. Praelatus tumultus flores annos. Fidumque Acoetes.\n\n1. Vim remis\n2. Non haerebat teneas raptaturque marito huius\n3. Nomen carinas placato mora deprensi umbras\n4. Iole utque quoque\n5. Aedibus totumque timuere senex Argentea corpore Et tanti ficti _non_ removente lenimen _Crete vestigia_ in deus, Olenios velut. Agna fulget, gratia habitant fonti pignus. Cura modo sacra petatur non adligat placebant sic discubuere tamen caelestibus pendebat."
+      "content": "## Pourquoi ce site ?\n\n J'avais besoin d'un endroit où pouvoir rassembler mes projets personnels, quels que soient leurs stades de développement. Je trouve ça plus lisible qu'une suite de carrés verts sur Github. Ensuite, j'aime lire et apprendre de nouvelles choses, alors pourquoi pas les partager ici ?"
     }
   ],
   "hero": {
     "headline": "Bienvenue chez Brolyus",
-    "textline": "This template is filled with sample content to get you started.",
+    "textline": "Développeur web, ",
     "ctas": [
       {
-        "label": "Read The Blog",
+        "label": "Lire le blog",
         "link": "/blog",
         "primary": true,
         "arrow": true
       },
       {
-        "label": "Contact Us",
+        "label": "Me contacter",
         "link": "/contact",
         "arrow": false,
         "primary": false
       }
     ],
-    "image": "../images/cafe-2.jpg",
+    "image": "../images/cafe.jpg",
     "large": true
   },
   "displayTitle": false,

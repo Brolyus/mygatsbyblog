@@ -1,9 +1,6 @@
 {
   "logo": "Coffee",
-  "title": "Tina Grande",
-  "description": "Tina Grande is a feature rich Gatsby starter with full TinaCMS integration.",
-  "author": "TinaCMS",
-  "__gatsby_resolved": {
-    "fileRelativePath": "/content/settings/site.json"
-  }
+  "title": "Anthony De Sousa",
+  "description": "Développeur web, ici je parle de ma reconversion dans le dév, de mes travaux, et de mes découvertes en rapport avec le développement.",
+  "author": "Anthony De Sousa"
 }

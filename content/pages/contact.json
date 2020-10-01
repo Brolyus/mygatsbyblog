@@ -13,7 +13,7 @@
       "name": "Contact Form",
       "fields": [
         {
-          "label": "Name",
+          "label": "Nom",
           "inputType": "text",
           "autocomplete": "name",
           "_template": "nameInputBlock"

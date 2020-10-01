@@ -3,7 +3,7 @@
   "blocks": [
     {
       "_template": "ContentBlock",
-      "content": "## Pourquoi ce site ?\n\n J'avais besoin d'un endroit où pouvoir rassembler mes projets personnels, quels que soient leurs stades de développement. Je trouve ça plus lisible qu'une suite de carrés verts sur Github. Ensuite, j'aime lire et apprendre de nouvelles choses, alors pourquoi pas les partager ici ?"
+      "content": "## Pourquoi ce site ?\n\n J'avais besoin d'un endroit où pouvoir rassembler mes projets personnels, quels que soient leurs stades de développement. Je trouve ça plus lisible qu'une suite de carrés verts sur Github. \n\n Ensuite, j'aime lire et apprendre de nouvelles choses, alors pourquoi pas les partager ici ?"
     }
   ],
   "hero": {
@@ -23,7 +23,7 @@
         "primary": false
       }
     ],
-    "image": "../images/cafe.jpg",
+    "image": "../images/cat.jpg",
     "large": true
   },
   "displayTitle": false,

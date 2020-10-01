@@ -8,7 +8,7 @@
     "textline": "Dummy",
     "large": false,
     "overlay": true,
-    "image": "../images/cafe-2.jpg",
+    "image": "../images/cat.jpg",
     "ctas": [
       {
         "label": "Read The Blog",

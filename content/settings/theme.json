@@ -22,7 +22,7 @@
     "underline": true
   },
   "hero": {
-    "image": "../images/cafe.jpg",
+    "image": "../images/cat.jpg",
     "large": false,
     "overlay": true,
     "overlap": "8rem",

@@ -69,7 +69,7 @@ export const customInputBlock = {
 export const nameInputBlock = {
   label: "Name Input",
   defaultItem: {
-    label: "Name",
+    label: "Nom",
     inputType: "text",
     autocomplete: "name",
   },

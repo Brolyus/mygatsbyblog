@@ -65,7 +65,7 @@ function Post(props) {
   }
 
   const [data, form] = useLocalRemarkForm(page, formOptions)
-
+  console.log(data.frontmatter)
   return (
     <InlineForm form={form}>
       <PageLayout page={data}>
@@ -79,7 +79,12 @@ function Post(props) {
               </MetaSpan>
             )}
             <MetaActions>
-              <Link to="/blog">← Back to Blog</Link>
+            {
+              data.frontmatter.type === "project" ?
+              <Link to="/projects">← Retour aux projets</Link>
+              :
+              <Link to="/blog">← Retour au Blog</Link>
+            }
             </MetaActions>
           </Meta>
           <h1>

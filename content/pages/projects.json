@@ -1,6 +1,8 @@
 {
   "title": "Projets",
   "path": "/projects",
+  "pageType": "list",
+  "listType": "project",
   "blocks": [
     {
       "_template": "TitleBlock",
@@ -14,5 +16,11 @@
       "center": false
     }
   ],
+  "hero": {
+    "headline": "Mes projets",
+    "textline": "Liste de mes projets, en cours, terminés ou parfois à venir. ",
+    "image": "../images/cat.jpg",
+    "large": true
+  },
   "displayTitle": true
 }

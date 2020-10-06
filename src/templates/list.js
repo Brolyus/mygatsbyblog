@@ -49,7 +49,16 @@ export default function List({ data, pageContext }) {
                     </MetaSpan>
                   )}
                   <MetaActions>
-                    <Link to={item.node.frontmatter.path}>Read Article →</Link>
+                  {item.node.frontmatter.externalLink &&
+                    <Link 
+                      external
+                      style={{paddingRight: "10px"}}
+                      to={item.node.frontmatter.externalLink}>
+                        Voir le projet →
+                    </Link>
+                  }
+                  {' '}
+                    <Link to={item.node.frontmatter.path}>Lire plus →</Link>
                   </MetaActions>
                 </Meta>
               </Paper>
@@ -118,6 +127,7 @@ export const pageQuery = graphql`
             path
             title
             draft
+            externalLink
             authors
           }
         }

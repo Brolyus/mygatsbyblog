@@ -65,13 +65,12 @@ function Post(props) {
   }
 
   const [data, form] = useLocalRemarkForm(page, formOptions)
-  console.log(data.frontmatter)
   return (
     <InlineForm form={form}>
       <PageLayout page={data}>
         <Paper>
           <Meta>
-            <MetaSpan>{data.frontmatter.date}</MetaSpan>
+            <MetaSpan>{data.frontmatter.date && data.frontmatter.date === "WIP" ? "En cours de dév" : data.frontmatter.date}</MetaSpan>
             {data.frontmatter.authors && data.frontmatter.authors.length > 0 && (
               <MetaSpan>
                 <em>By</em>&nbsp;
@@ -124,6 +123,7 @@ export const postQuery = graphql`
         title
         draft
         authors
+        type
         hero {
           large
           overlay

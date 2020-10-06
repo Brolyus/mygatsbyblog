@@ -18,6 +18,8 @@ import {
   InlineWysiwyg,
 } from "react-tinacms-inline"
 import { useAuthors } from "../components/useAuthors"
+import {getCurrentDate} from '../functions/getCurrentDate'
+
 
 function Post(props) {
   const authors = useAuthors()
@@ -70,7 +72,7 @@ function Post(props) {
       <PageLayout page={data}>
         <Paper>
           <Meta>
-            <MetaSpan>{data.frontmatter.date && data.frontmatter.date === "WIP" ? "En cours de dév" : data.frontmatter.date}</MetaSpan>
+            <MetaSpan>{data.frontmatter.date && data.frontmatter.date === "01 01, 2100" ?  getCurrentDate(" ") : data.frontmatter.date}</MetaSpan>
             {data.frontmatter.authors && data.frontmatter.authors.length > 0 && (
               <MetaSpan>
                 <em>By</em>&nbsp;

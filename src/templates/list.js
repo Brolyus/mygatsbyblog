@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import styled from "styled-components"
 import { useLocalJsonForm } from "gatsby-tinacms-json"
+import {getCurrentDate} from '../functions/getCurrentDate'
 
 import {
   Paper,
@@ -41,7 +42,7 @@ export default function List({ data, pageContext }) {
                 </h2>
                 <p>{item.node.excerpt}</p>
                 <Meta>
-                  <MetaSpan>{item.node.frontmatter.date}</MetaSpan>
+                  <MetaSpan>{item.node.frontmatter.date && item.node.frontmatter.date === "01 01, 2100" ? getCurrentDate(' ') : item.node.frontmatter.date}</MetaSpan>
                   {item.node.frontmatter.authors && (
                     <MetaSpan>
                       <em>By</em>&nbsp;
@@ -67,12 +68,12 @@ export default function List({ data, pageContext }) {
         <ListNav>
           {!isFirst && (
             <Link to={prevPage} rel="prev">
-              ← Newer
+              ← Plus récents
             </Link>
           )}
           {!isLast && (
             <Link to={nextPage} rel="next">
-              Older →
+              Plus anciens →
             </Link>
           )}
         </ListNav>
@@ -123,7 +124,7 @@ export const pageQuery = graphql`
           id
           excerpt
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD MM, YYYY")
             path
             title
             draft

@@ -3,12 +3,12 @@
   "blocks": [
     {
       "_template": "ContentBlock",
-      "content": "## Pourquoi ce site ?\n\n J'avais besoin d'un endroit où pouvoir rassembler mes projets personnels, quels que soient leurs stades de développement. Je trouve ça plus lisible qu'une suite de carrés verts sur Github. \n\n Ensuite, j'aime lire et apprendre de nouvelles choses, alors pourquoi pas les partager ici ?"
+      "content": "## Qui suis-je ? \n\n Je m'appelle Anthony De Sousa, je suis développeur web. J'ai fais une reconversion professionnelle en Septembre 2019 avec la Wild Code School, qui m'a permit d'apprendre le code, des habitudes. Mais également des façons de travailler, de communiquer, de réfléchir et de trouver des solutions par moi-même. Après un an, et un stage de plusieurs mois en temps que développeur web, j'arrive au moment où je vais devoir décrocher mon premier vrai contrat de développeur web. \n\n ## Pourquoi ce site ?\n\n J'avais besoin d'un endroit où pouvoir rassembler mes projets personnels, quels que soient leurs stades de développement. Je trouve ça plus lisible qu'une suite de carrés verts sur Github. \n\n Ensuite, j'aime lire et apprendre de nouvelles choses, alors pourquoi pas les partager ici ?"
     }
   ],
   "hero": {
     "headline": "Bienvenue",
-    "textline": "Développeur web, ",
+    "textline": "Ce site a pour vocation de regrouper mes projets, quelques idées au travers d'un blog que j'alimenterais au fil du temps, et m'a permit de tester Gatsbyjs.",
     "ctas": [
       {
         "label": "Lire le blog",
@@ -27,5 +27,5 @@
     "large": true
   },
   "displayTitle": false,
-  "title": "Test"
+  "title": "Portfolio"
 }
